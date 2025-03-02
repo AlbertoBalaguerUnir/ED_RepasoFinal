@@ -41,9 +41,9 @@ public class Biblioteca {
     //  Test: Comprobar si se ha agregado
 
     /**
-     * metodo booleano para agregar libro a nuestra biblioteca
+     * Agregar libro a nuestra biblioteca
      * @param libro Un libro para agregar
-     * @see Libro (clase)
+     *
      * @return {@code true} si el libro se ha agregado correctamente o {@code flase} si el libro no se ha agregado
      * correctamente.
      */

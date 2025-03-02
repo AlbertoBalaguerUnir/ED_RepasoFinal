@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BibliotecaTest {
 
     Libro libro;
-    Biblioteca biblioteca;
+    Biblioteca biblioteca = new Biblioteca();
 
     @BeforeEach
     void setUp() {
@@ -54,8 +54,4 @@ class BibliotecaTest {
         assertTrue(biblio.getLibros().contains(this.libro));
 
     }
-
-
-
-
 }
