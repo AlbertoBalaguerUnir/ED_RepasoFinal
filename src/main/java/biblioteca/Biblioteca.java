@@ -41,13 +41,12 @@ public class Biblioteca {
     //  Test: Comprobar si se ha agregado
 
     /**
-     * método booleano para agregar libro a nuestra biblioteca
+     * metodo booleano para agregar libro a nuestra biblioteca
      * @param libro Un libro para agregar
      * @see Libro (clase)
      * @return {@code true} si el libro se ha agregado correctamente o {@code flase} si el libro no se ha agregado
      * correctamente.
      */
-
     public boolean agregarLibro(Libro libro) {
         return libros.add(libro);
     }
@@ -96,7 +95,8 @@ public class Biblioteca {
      * @param autor
      * @return libro.
      */
-    
+
+    @Deprecated
     // Este metodo está obsoleto. Hay que documentarlo como tal.
     //  Recuerda: las anotaciones @deprecated y @link a la nueva
     //  versión mejorada encuentraLibrosPorAutor(...)
@@ -120,7 +120,7 @@ public class Biblioteca {
     /**
      * Busca todos los libros de un autor determinado.
      * @since v2.0
-     * Sustituye al metodo {@link #encuentraLibrosPorAutor(String)} (String)} en su lugar.
+     * Sustituye al metodo {@link #encuentraLibroPorTitulo(String)} en su lugar.
      * @param autor
      * @return
      */
