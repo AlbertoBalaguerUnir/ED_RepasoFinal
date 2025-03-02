@@ -1,5 +1,6 @@
 package biblioteca;
 
+// TODO: Documentar la clase.
 import java.util.ArrayList;
 import java.util.List;
 
